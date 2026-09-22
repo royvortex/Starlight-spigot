@@ -22,13 +22,10 @@ public class ModuleId {
     public static final String PTP            = "ptp";
     public static final String RTP            = "rtp";
     public static final String SCHEDULER      = "scheduler";
-    public static final String SCOREBOARD     = "scoreboard";
     public static final String SOCIALS        = "socials";
     public static final String SPAWNERS       = "spawners";
     public static final String SPAWNS         = "spawns";
-    public static final String TAB            = "tab";
     public static final String VANISH         = "vanish";
     public static final String WARMUPS        = "warmups";
     public static final String WARPS          = "warps";
-    public static final String WORLDS         = "worlds";
 }

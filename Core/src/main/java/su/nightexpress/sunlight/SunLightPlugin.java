@@ -48,14 +48,11 @@ import su.nightexpress.sunlight.module.playerwarps.PlayerWarpsModule;
 import su.nightexpress.sunlight.module.ptp.PTPModule;
 import su.nightexpress.sunlight.module.rtp.RTPModule;
 import su.nightexpress.sunlight.module.scheduler.SchedulerModule;
-import su.nightexpress.sunlight.module.scoreboard.ScoreboardModule;
 import su.nightexpress.sunlight.module.spawns.SpawnsModule;
-import su.nightexpress.sunlight.module.tab.TabModule;
 import su.nightexpress.sunlight.module.texts.TextsModule;
 import su.nightexpress.sunlight.module.vanish.VanishModule;
 import su.nightexpress.sunlight.module.warmups.WarmupsModule;
 import su.nightexpress.sunlight.module.warps.WarpsModule;
-import su.nightexpress.sunlight.module.worlds.WorldsModule;
 import su.nightexpress.sunlight.nms.SunNMS;
 import su.nightexpress.sunlight.nms.mc_1_21_11.MC_1_21_11;
 import su.nightexpress.sunlight.nms.v26p1.NMSv26p1;
@@ -160,9 +157,6 @@ public class SunLightPlugin extends NightPlugin implements SunlightAPI, ModuleCo
     private void loadModules() {
         ModuleLoader loader = new ModuleLoader(this, this.moduleRegistry);
 
-        loader.register(ModuleId.WORLDS, ModuleDefinition.named("Worlds"),
-            context -> new WorldsModule(context, this.teleportManager));
-
         loader.register(ModuleId.AFK, ModuleDefinition.named("AFK"), AfkModule::new);
         loader.register(ModuleId.BANS, ModuleDefinition.named("Bans"), BansModule::new);
         loader.register(ModuleId.BACK_LOCATION, ModuleDefinition.named("Back"),
@@ -190,11 +184,8 @@ public class SunLightPlugin extends NightPlugin implements SunlightAPI, ModuleCo
         loader.register(ModuleId.RTP, ModuleDefinition.named("RTP"),
             context -> new RTPModule(context, this.teleportManager));
         loader.register(ModuleId.SCHEDULER, ModuleDefinition.named("Scheduler"), SchedulerModule::new);
-        loader.register(ModuleId.SCOREBOARD, ModuleDefinition.named("Scoreboard"), ScoreboardModule::new,
-            LoadCondition::packetLibrary);
         loader.register(ModuleId.SPAWNS, ModuleDefinition.named("Spawn"),
             context -> new SpawnsModule(context, this.teleportManager));
-        loader.register(ModuleId.TAB, ModuleDefinition.named("Tab"), TabModule::new);
         loader.register(ModuleId.VANISH, ModuleDefinition.named("Vanish"), VanishModule::new);
         loader.register(ModuleId.WARMUPS, ModuleDefinition.named("Warmups"),
             context -> new WarmupsModule(context, this.teleportManager));

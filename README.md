@@ -4,7 +4,7 @@
 
 **SunLight** is a modern, lightweight, all-in-one core solution featuring the essential tools every server needs. 
 
-It includes **26** fully optional and customizable modules, allowing you to select only what your server actually requires!
+It includes **23** fully optional and customizable modules, allowing you to select only what your server actually requires!
 
 ---
 
@@ -44,14 +44,11 @@ It includes **26** fully optional and customizable modules, allowing you to sele
 - **Player Teleports**: A player-to-player teleport request system with customizable timeouts and a toggle to block incoming requests.
 - **Random Teleport**: Randomly teleports players within world-specific coordinates, featuring chunk safety checks and automatic world redirection.
 - **Scheduler**: Create custom server tasks that run in the background at specific times/intervals!
-- **Scoreboard**: Displays a side-panel information board with multiple templates, update intervals, and rank/world-specific visibility.
 - **Spawns**: Create unlimited spawn points with rank-based auto-teleportation on join or respawn and a GUI editor.
-- **TAB**: Customize the player list with automatic rank sorting, refresh intervals, and world-specific formatting.
 - **Texts**: Maps the contents of text files to unique custom commands with MiniMessage and PlaceholderAPI support.
 - **Vanish**: Hide yourself from others with a status-persisting logout feature and a Boss Bar indicator.
 - **Warm Ups**: Add preparation timers to teleports (Home, Spawn, RTP, etc.) with Boss Bar progress and movement/damage cancellation.
 - **Warps**: Create public fast-travel points with access requirements based on permissions and money costs.
-- **Worlds**: Create unlimited custom worlds with dynamic loading, GUI GameRule editing, and per-world inventory separation.
 
 ---
 
