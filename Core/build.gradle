@@ -11,7 +11,7 @@ dependencies {
 
 // Configure the shadowJar task to bundle the necessary dependencies.
 shadowJar {
-    archiveBaseName.set("SunLight")
+    archiveBaseName.set("Starlight")
     archiveVersion.set(project.version.toString())
     archiveClassifier.set("")
     destinationDirectory = file("$rootDir/target")

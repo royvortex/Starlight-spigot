@@ -2,7 +2,7 @@
   <img src="https://nightexpressdev.com/sunlight/logo.png">
 </p>
 
-**SunLight** is a modern, lightweight, all-in-one core solution featuring the essential tools every server needs. 
+**Starlight** is a modern, lightweight, all-in-one core solution featuring the essential tools every server needs. 
 
 It includes **23** fully optional and customizable modules, allowing you to select only what your server actually requires!
 
@@ -19,7 +19,7 @@ It includes **23** fully optional and customizable modules, allowing you to sele
 - **Modularity:** Toggle any feature on/off with ease.
 - **Lightweight:** Only pure original code.
 - **Highly Customizable:** Change **commands**, **GUI layouts**, and edit every single piece of text.
-- **Command Cooldowns:** Set cooldown for any SunLight command.
+- **Command Cooldowns:** Set cooldown for any Starlight command.
 - **Offline Data Support:** Use almost any command on players, even if offline.
 - **MiniMessage Support:** Use all tags and text components almost anywhere.
 - **PlaceholderAPI Support:** Use placeholders almost anywhere.

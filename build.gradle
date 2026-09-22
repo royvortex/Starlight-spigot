@@ -5,7 +5,7 @@ plugins {
 }
 
 allprojects {
-    group = 'su.nightexpress.sunlight'
+    group = 'me.royvortex.starlight'
     version = '3.17.1'
 
     repositories {

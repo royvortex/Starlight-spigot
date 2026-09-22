@@ -1,11 +1,11 @@
 #
-# Copyright (C) NightExpress, Sverdlovsk, 2025
+# Copyright (C) RoyVortex, Sverdlovsk, 2025
 #
-name: SunLight
-main: su.nightexpress.sunlight.SunLightPlugin
+name: Starlight
+main: me.royvortex.starlight.StarlightPlugin
 version: '${project.version}'
 description: Advanced, light & modern all-in-one server management plugin.
-author: NightExpress
+author: RoyVortex
 depend: [ nightcore ]
 libraries:
   - org.apache.commons:commons-text:1.10.0
