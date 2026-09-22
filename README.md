@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://nightexpressdev.com/sunlight/logo.png">
+  <img src="assets/logo.png">
 </p>
 
 **Starlight** is a modern, lightweight, all-in-one core solution featuring the essential tools every server needs. 
